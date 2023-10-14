@@ -40,7 +40,7 @@ function loginFun()
     if(userGivenID==emailOrPhno && userGivenPass==pass)
     {
         document.getElementById("loginButton").type="Submit"
-        formTag[0].action="./Home.html"
+        formTag[0].action="./home.html"
     }
     else if(userGivenID!=emailOrPhno && userGivenPass==pass)
     {
